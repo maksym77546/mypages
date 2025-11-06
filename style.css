@@ -383,3 +383,81 @@ body {
 .portfolio-item:hover .portfolio-image {
     opacity: 0.2; 
 }
+.testimonials {
+    margin-top: 98px;
+    padding: 0 20px 100px;
+    position: relative;
+}
+
+.testimonial-slider-container {
+    max-width: 1400px; 
+    margin: 0 auto;
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.testimonial-item {
+    display: flex;
+    align-items: flex-start; 
+    gap: 70px;
+    max-width: 1100px; 
+    padding: 0 40px; 
+    text-align: left;
+}
+
+.testimonial-photo-wrapper {
+    flex-shrink: 0; 
+    width: 150px; 
+    height: 150px;
+    border: 3px solid #95e1d3;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 15px; 
+}
+
+.testimonial-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.testimonial-content {
+    padding-top: 10px; 
+    flex-grow: 1;
+    max-width: 771px;
+}
+
+.testimonial-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px; 
+    font-style: italic;
+    color: #6c757d;
+    line-height: 1.5;
+    margin-bottom: 30px; 
+}
+
+.testimonial-author-line-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.testimonial-line {
+    display: inline-block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+}
+
+.testimonial-author {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px; 
+    font-weight: 700; 
+    color: #333333;
+    text-transform: uppercase;
+}
+
